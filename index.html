@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>安踏体育财报摘要 | 新闻文档</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f2f4f8;
+            font-family: 'Segoe UI', 'Roboto', 'Noto Sans', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.65;
+            color: #1e2a3e;
+            padding: 2rem 1rem;
+        }
+
+        /* 文档卡片容器 */
+        .document-card {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        /* 头部装饰/标题区 */
+        .doc-header {
+            background: linear-gradient(135deg, #0b2b3b 0%, #1a4a5f 100%);
+            padding: 2rem 2rem 1.5rem 2rem;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+        }
+
+        .doc-header h1 {
+            font-size: 1.85rem;
+            font-weight: 600;
+            letter-spacing: -0.2px;
+            color: white;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+        }
+
+        .doc-header .meta {
+            color: #cbdbe6;
+            font-size: 0.85rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        .doc-header .meta span {
+            background: rgba(255,255,255,0.12);
+            padding: 0.2rem 0.7rem;
+            border-radius: 30px;
+            font-size: 0.75rem;
+        }
+
+        /* 正文区域 */
+        .doc-content {
+            padding: 2rem 2rem 2.5rem 2rem;
+        }
+
+        /* 段落样式 */
+        .doc-content p {
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+            text-align: justify;
+            color: #2c3e44;
+        }
+
+        /* 财务数字高亮 (可选，增强可读性) */
+        .highlight-number {
+            font-weight: 600;
+            color: #1f6e8c;
+            background: #eef5f8;
+            padding: 0 2px;
+            border-radius: 6px;
+            font-feature-settings: "tnum";
+        }
+
+        /* 小标题/关键数据块 */
+        .stat-badge {
+            background-color: #f8fafc;
+            border-left: 4px solid #1f6e8c;
+            padding: 0.6rem 1rem;
+            margin: 1.5rem 0 1rem 0;
+            border-radius: 12px;
+            font-weight: 500;
+            color: #0f3b4a;
+        }
+
+        /* 引述/主席话语 */
+        .quote-block {
+            background: #f3f6fb;
+            padding: 1rem 1.5rem;
+            border-radius: 20px;
+            margin: 1.6rem 0;
+            font-style: normal;
+            border: 1px solid #e2edf2;
+            color: #1a4a5f;
+            font-weight: 450;
+        }
+
+        .quote-block::before {
+            content: "“";
+            font-size: 1.8rem;
+            line-height: 1;
+            color: #2c7a6e;
+            font-weight: 600;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+
+        .quote-block::after {
+            content: "”";
+            font-size: 1.8rem;
+            line-height: 1;
+            color: #2c7a6e;
+            font-weight: 600;
+            vertical-align: bottom;
+            margin-left: 2px;
+        }
+
+        /* 列表/战略要点 */
+        .strategy-list {
+            background: #ffffff;
+            padding-left: 1.25rem;
+            margin: 1.2rem 0;
+            list-style-type: none;
+        }
+
+        .strategy-list li {
+            margin-bottom: 0.6rem;
+            position: relative;
+            padding-left: 1.4rem;
+        }
+
+        .strategy-list li::before {
+            content: "●";
+            color: #1f6e8c;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 640px) {
+            .doc-content {
+                padding: 1.5rem;
+            }
+            .doc-header {
+                padding: 1.5rem;
+            }
+            .doc-header h1 {
+                font-size: 1.4rem;
+            }
+            body {
+                padding: 1rem 0.75rem;
+            }
+        }
+
+        hr {
+            margin: 1.8rem 0 0.8rem 0;
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, #e0e7ed, transparent);
+        }
+
+        .footer-note {
+            font-size: 0.75rem;
+            text-align: right;
+            color: #8aa0b0;
+            margin-top: 2rem;
+            border-top: 1px solid #edf2f7;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="document-card">
+    <div class="doc-header">
+        <h1>安踏体育（02020）：集团稳健发展收入破700亿大关<br>坚持全球化战略强化研发能力整佐领头羊</h1>
+        <div class="meta">
+            <span>📊 2024财政年度业绩摘要</span>
+            <span>🏭 体育用品行业</span>
+            <span>📈 营收+13.6%</span>
+        </div>
+    </div>
+    <div class="doc-content">
+        <!-- 原文第一段：整体收入与利润 -->
+        <p>二零二四年，安踏体育集团保持稳健发展，收入高达708.26亿元，首次突破七百亿大关，同比增长13.6%。二零二四年集团销售成本为267.94亿。集团毛利为440.32亿，毛利率为62.2%同比下降0.4%。整体经营溢利是165.95亿同比上升8%。按综合基准，包括分占合营公司损益影响，股东应占溢利大辐提高52.4%至155.96亿；不包括分占合营公司损益影响，股东应占溢利增加16.5%至117.29亿元。其巨大发展得益于中国内地的有利政策，多品牌的策略以及全球化布局。</p>
+
+        <!-- 第二段：流动资产等财务数据 -->
+        <p>本财政年度集团流动资产净值为238.89亿元较去年下降24%。集团每股盈利为5.55元较去年上升50%。集团流动资产为524.82亿元，非流动资产达601.33亿元，流动负债为285.93亿元。</p>
+
+        <!-- FILA / 各分部经营表现 -->
+        <p>二零二四年，集团旗下FILA安踏等多个分部业务维持高水平运营效率。由于集团持续加大在品牌，渠道及产品研发投入，其整体经济溢利率下降1.2个百分点至23.4%，安踏分下降1.2个百分点至21%，FILA分部下降2.3个百分点至25.3%。</p>
+
+        <!-- 战略部署+AI+产品创新 -->
+        <p>集团持续推进<span class="stat-badge" style="display: inline-block; background: none; border-left: none; font-weight: 600; padding: 0;">“单聚焦，多品牌，全球化”</span>战略，积极拓展海外市场。集团采取混合运营模式，一方面利用分销商优势推动加盟业务，一方面通过自营提升对消费者需求变化敏感度。集团积极运用人工智能技术辅助运营管理，并推动创意决策，加大研发，推出多款标志性产品，如具有自主研发安踏膜技术冲锋衣“风暴甲”。</p>
+
+        <!-- 主席与CEO表态 -->
+        <div class="quote-block">
+            集团主席丁世忠表示，尽管2024全球宏观经营环境不确定性增加，但集团对中长期增长前景保持乐观，将继续推进安踏FILA品牌高端化定位。集团首席执行官表示，会继续去实现高质量稳健增长，同时使市场份额位于领先地位。
+        </div>
+
+        <!-- 补充额外细节: 维持原文所有信息——其中包含“安踏分下降1.2个百分点至21%”等均已涵盖。同时为保证原文完整，再确认没有遗漏 -->
+        <!-- 另外原文第一段中 “整佐领头羊”保留原风格，已显示于标题中，正文不再赘述，尊重原文语境。 -->
+        <div class="stat-badge">
+            📌 关键指标速览：收入708.26亿 ↗13.6% &nbsp;|&nbsp; 股东应占溢利(综合) +52.4% &nbsp;|&nbsp; 每股盈利5.55元 ↗50%
+        </div>
+
+        <!-- 最后呈现一点解释：该文档为新闻/财经简报，保留原始措辞 -->
+        <hr>
+        <p style="font-size: 0.85rem; color: #5a727e; margin-top: 0.5rem;">※ 以上内容源自安踏体育2024年度财务摘要及相关管理层评论，数据按综合基准列示。集团持续强化多品牌矩阵与全球化布局，并加大研发投入以巩固行业领先地位。</p>
+        
+        <div class="footer-note">
+            新闻简报 · 安踏体育（02020）| 资料整理
+        </div>
+    </div>
+</div>
+</body>
+</html>
